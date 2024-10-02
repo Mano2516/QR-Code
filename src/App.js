@@ -71,8 +71,11 @@ function Qr({ qrCode, text, load }) {
         className="qr"
         status={load}
         value={qrCode || "-"}
+        bgColor="white"
+        color="#000"
         id="myqrcode"
-        color="red"
+        size={180}
+        bordered={true}
       />
     </>
   );
