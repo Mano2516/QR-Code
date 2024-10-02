@@ -72,6 +72,7 @@ function Qr({ qrCode, text, load }) {
         status={load}
         value={qrCode || "-"}
         id="myqrcode"
+        color="red"
       />
     </>
   );
